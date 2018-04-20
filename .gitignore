@@ -1,3 +1,4 @@
-thumbnail/
-images/
-
+/thumbnail/*
+/images/*
+!/thumbnail/noimage.jpg
+!/images/noimage.jpg
