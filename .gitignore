@@ -1,4 +1,5 @@
 /thumbnail/*
 /images/*
+.DS_Store
 !/thumbnail/noimage.jpg
 !/images/noimage.jpg
