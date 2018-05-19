@@ -46,6 +46,9 @@
     ModPagespeed on
     # 画像劣化が気になる場合は画像圧縮をOFFに
     ModPagespeedDisableFilters rewrite_images
+    ModPagespeedAllow *
+    ModPagespeedDisallow */images/*
+    ModPagespeedDisallow */thumbnail/*    
     </IfModule>
 
     <IfModule mod_expires.c>
